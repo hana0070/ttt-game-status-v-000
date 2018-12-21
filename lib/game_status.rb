@@ -24,5 +24,11 @@ def won?(board)
 end
 
 def full?(board)
-  
+  board.all? do |token|
+    if token = position_taken?
+      true
+    else
+      false
+    end
+  end
 end
