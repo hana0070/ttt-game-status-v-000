@@ -17,5 +17,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
 
+  return win_index.to_a
     
 end
