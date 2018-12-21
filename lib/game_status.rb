@@ -25,10 +25,14 @@ end
 
 def full?(board)
   board.all? do |token|
-    if token = "X" || token = "O"
+    if token == "X" || token == "O"
       true
     else
       false
     end
   end
+end
+
+def full?(board)
+  board.all?{|token| token == "X" || token == "O"}
 end
