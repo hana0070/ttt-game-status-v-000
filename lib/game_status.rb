@@ -25,7 +25,7 @@ end
 
 def full?(board)
   board.each do |index|
-    index = position?
+  if index = position?
     true
   else
     falsey
