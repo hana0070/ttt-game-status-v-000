@@ -24,5 +24,10 @@ def won?(board)
 end
 
 def full?(board)
-
+  board.each do |index|
+    index = position?
+    true
+  else
+    falsey
+  end
 end
