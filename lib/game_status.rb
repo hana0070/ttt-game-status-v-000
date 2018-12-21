@@ -25,7 +25,7 @@ end
 
 def full?(board)
   board.all? do |token|
-    if token = position_taken?
+    if token = "X" || token = "O"
       true
     else
       false
