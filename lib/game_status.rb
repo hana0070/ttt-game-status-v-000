@@ -23,6 +23,6 @@ def won?(board)
 
 end
 
-def full?
+def full?(board)
 
-end 
+end
