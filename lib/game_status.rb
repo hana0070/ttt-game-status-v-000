@@ -42,3 +42,8 @@ def draw?(board)
     false
   end
 end
+
+
+def draw?(board)
+
+end
