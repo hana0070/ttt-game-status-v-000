@@ -16,8 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.each do |array|
-    if array 
-  return win_index.to_a
+  WIN_COMBINATIONS.detect do |combo|
+    combo
 
 end
