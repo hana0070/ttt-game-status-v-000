@@ -41,6 +41,6 @@ def over?(board)
   won?(board) || full?(board)
 end
 
-def winner(token)
+def winner(board)
   
 end
